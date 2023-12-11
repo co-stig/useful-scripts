@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Program>
+          <ID>{41777AA7-9B2C-4D7D-A967-D4A9BF52C5CC}</ID>
+          <Hint>git pull</Hint>
+          <Command>/usr/local/bin/git-pull.sh</Command>
+          <StartPath>%D</StartPath>
+        </Program>
+        <Program>
+          <ID>{78BB99D5-B8F1-44D5-97F7-C0015202A066}</ID>
+          <Hint>git push</Hint>
+          <Command>/usr/local/bin/git-push.sh</Command>
+          <StartPath>%D</StartPath>
+        </Program>
+        <Program>
+          <ID>{6AA9542D-C6D9-43F8-90BD-D302035AE089}</ID>
+          <Hint>git toggle</Hint>
+          <Command>/usr/local/bin/git-toggle.sh</Command>
+          <Params>%f</Params>
+          <StartPath>%D</StartPath>
+        </Program>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+</doublecmd>
